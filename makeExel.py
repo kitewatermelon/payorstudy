@@ -5,8 +5,7 @@ from datetime import datetime
 
 file = open("poskakao.txt", "r", encoding='UTF8')
 file_content = file.readlines()
-pattern_general = r'\d{4}\s\w+\s일반' #일반 정규식
-pattern_daily = r'\d{4}\s\w+\s데일리' #데일리 정규식
+pattern_general = r'\d{4}\s\w+\s설정' #일반 정규식
 pattern_success = r'\d{4}\s\w+\s성공' #성공 정규식
 pattern_fail = r'\d{4}\s\w+\s실패' #실패 정규식
 
